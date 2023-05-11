@@ -1,0 +1,9 @@
+name: Deploy Elm to GitHub Pages
+author: Isaac Van Doren
+description: A GitHub action for deploying an Elm application to GitHub Actions.
+runs:
+  using: docker
+  image: ubuntu-latest
+branding:
+  color: green
+  icon: upload-cloud
